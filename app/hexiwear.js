@@ -34,7 +34,7 @@ var Hexiwear = function () {
 
     /* Defining function for connecting to the device */
     Hexiwear.prototype.connect = function () {
-        vsr options = {
+        var options = {
         	filters: [{name: DEVICE_NAME}],
         	optionalServices: [
         		DEVICE_INFORMATION_SERVICE,
