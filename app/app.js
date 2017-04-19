@@ -17,7 +17,7 @@ function mainController($scope) {
     	    if(main.hexiwear && main.hexiwear.connected != undefined){
     	        main.hexiwear.refreshValues();
     	    }
-    	},1000);
+    	},10);
     
     	main.buttonClicked = function() {
 			/* Start the connection. */
